@@ -1,0 +1,31 @@
+.appointment-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  width: 315px;
+  margin-bottom: 15px;
+  margin-right: 18px;
+  padding: 10px 15px;
+}
+
+.appointment-name {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.star-btn {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}

@@ -1,0 +1,95 @@
+.app-container {
+  padding: 50px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+
+.appointment-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 45px 70px;
+  color: #171f46;
+}
+
+.appointment-input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #b5b7c4;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.form-label {
+  font-size: 15px;
+  margin: 5px 0;
+  color: #b5b7c4;
+}
+
+.form-input {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.add-btn {
+  padding: 8px 15px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.appointment-image {
+  width: 450px;
+}
+
+/* ------------------------------------ */
+
+.appointment-list-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item-heading {
+  font-size: 25px;
+}
+
+.starred-btn {
+  padding: 6px 18px;
+  background-color: #ffffff;
+  color: #8b5cf6;
+  cursor: pointer;
+  outline: none;
+  border: solid 1px #8b5cf6;
+  border-radius: 20px;
+}
+
+.star-filter {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.appointment-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  max-width: 1000px;
+}
